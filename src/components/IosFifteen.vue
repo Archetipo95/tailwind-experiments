@@ -1,8 +1,9 @@
-<script setup>
-</script>
+<script setup></script>
 
 <template>
-  <div class="px-10 min-h-screen bg-purple-100 flex justify-center items-center">
+  <div
+    class="px-10 min-h-screen bg-purple-100 flex justify-center items-center"
+  >
     <div
       class="relative h-[712px] w-[350px] bg-black rounded-[60px] shadow-xl overflow-hidden border-[14px] border-black"
     >
@@ -49,7 +50,9 @@
             viewBox="0 0 20 20"
             fill="currentColor"
           >
-            <path d="M2 5a2 2 0 012-2h7a2 2 0 012 2v4a2 2 0 01-2 2H9l-3 3v-3H4a2 2 0 01-2-2V5z" />
+            <path
+              d="M2 5a2 2 0 012-2h7a2 2 0 012 2v4a2 2 0 01-2 2H9l-3 3v-3H4a2 2 0 01-2-2V5z"
+            />
             <path
               d="M15 7v2a4 4 0 01-4 4H9.828l-1.766 1.767c.28.149.599.233.938.233h2l3 3v-3h2a2 2 0 002-2V9a2 2 0 00-2-2h-1z"
             />
@@ -85,22 +88,31 @@
               </div>
               <span
                 class="bg-gray-500 h-8 w-8 rounded-full text-white flex justify-center items-center"
-              >11</span>
+                >11</span
+              >
             </div>
             <div class="mt-2 grid grid-cols-2 gap-2">
               <div>
-                <img class="rounded-lg" src="../../static/surf-sunset.jpeg" alt />
-                <h3
-                  class="mt-2 text-xs font-bold leading-tight"
-                >Surfing: heals the soul, kills the ribs</h3>
-                <p
-                  class="mt-1 text-xs"
-                >It's all fun and thrills until you get sucked over the falls.</p>
+                <img
+                  class="rounded-lg"
+                  src="../../static/surf-sunset.jpeg"
+                  alt
+                />
+                <h3 class="mt-2 text-xs font-bold leading-tight">
+                  Surfing: heals the soul, kills the ribs
+                </h3>
+                <p class="mt-1 text-xs">
+                  It's all fun and thrills until you get sucked over the falls.
+                </p>
               </div>
               <div>
                 <img class="rounded-lg" src="../../static/basket.jpeg" alt />
-                <h3 class="mt-2 text-xs font-bold leading-tight">The NBA Finals are here!</h3>
-                <p class="mt-1 text-xs">Bucks vs Suns is shaping up to be a very intriguing series!</p>
+                <h3 class="mt-2 text-xs font-bold leading-tight">
+                  The NBA Finals are here!
+                </h3>
+                <p class="mt-1 text-xs">
+                  Bucks vs Suns is shaping up to be a very intriguing series!
+                </p>
               </div>
             </div>
             <hr class="mt-4 border-black/20" />
@@ -111,13 +123,25 @@
               </div>
               <ul class="flex flex-row-reverse space-x-reverse -space-x-4">
                 <li>
-                  <img class="h-8 w-8 object-fill rounded-xl" src="../../static/google.png" alt />
+                  <img
+                    class="h-8 w-8 object-fill rounded-xl"
+                    src="../../static/google.png"
+                    alt
+                  />
                 </li>
                 <li>
-                  <img class="h-8 w-8 object-fill rounded-xl" src="../../static/tesla.jpeg" alt />
+                  <img
+                    class="h-8 w-8 object-fill rounded-xl"
+                    src="../../static/tesla.jpeg"
+                    alt
+                  />
                 </li>
                 <li>
-                  <img class="h-8 w-8 object-fill rounded-xl" src="../../static/apple.png" alt />
+                  <img
+                    class="h-8 w-8 object-fill rounded-xl"
+                    src="../../static/apple.png"
+                    alt
+                  />
                 </li>
               </ul>
             </div>
@@ -161,5 +185,4 @@
   </div>
 </template>
 
-<style scoped>
-</style>
+<style scoped></style>

@@ -1,13 +1,12 @@
 <script setup>
-import IosFifteen from './components/IosFifteen.vue'
-import BackgroundBlur from './components/BackgroundBlur.vue'
-import Workcation from './components/Workcation.vue'
-
+import IosFifteen from "./components/IosFifteen.vue";
+import BackgroundBlur from "./components/BackgroundBlur.vue";
+import Workcation from "./components/Workcation.vue";
+import FencyGrid from "./components/FencyGrid.vue";
 </script>
 
 <template>
-  <Workcation />
+  <FencyGrid />
 </template>
 
-<style>
-</style>
+<style></style>
