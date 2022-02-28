@@ -1,13 +1,16 @@
-const defautTheme = require("tailwindcss/defaultTheme");
+const defaultTheme = require("tailwindcss/defaultTheme");
 
 module.exports = {
   content: ["./index.html", "./src/**/*.{vue,js,ts,jsx,tsx}"],
   theme: {
     screens: {
       xs: "540px",
-      ...defautTheme.screens,
+      ...defaultTheme.screens,
     },
     extend: {
+      fontFamily: {
+        sans: ["Poppins", ...defaultTheme.fontFamily.sans],
+      },
       animation: {
         blob: "blob 7s infinite",
       },
@@ -26,6 +29,12 @@ module.exports = {
             transform: "tranlate(0px, 0px) scale(1)",
           },
         },
+      },
+      backgroundImage: {
+        texture: `url('../../static/brickwall.jpeg')`,
+      },
+      blur: {
+        px: `1px`,
       },
     },
   },
