@@ -5,7 +5,7 @@
   >
     <img
       class="h-32 w-32 flex-shrink-0"
-      :src="getImageUrl(destination.imageUrl)"
+      :src="`/static/img/${destination.imageUrl}`"
       :alt="destination.imageAlt"
     />
     <div class="px-6 py-4">
@@ -28,16 +28,10 @@
 </template>
 
 <script setup>
-import { toRefs } from "vue";
-
 defineProps({
   destination: {
     type: Object,
     require: true,
   },
 });
-
-function getImageUrl(name) {
-  return new URL(`../../assets${name}`, import.meta.url).href;
-}
 </script>
