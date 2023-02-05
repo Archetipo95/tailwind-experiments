@@ -8,7 +8,12 @@ import FloatingLabels from "./components/FloatingLabels.vue";
 </script>
 
 <template>
-  <FloatingLabels />
+  <div>
+    <IosFifteen />
+    <BackgroundBlur />
+    <Workcation />
+    <FencyGrid />
+    <BlendUtilities />
+    <FloatingLabels />
+  </div>
 </template>
-
-<style></style>
